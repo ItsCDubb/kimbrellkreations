@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import { BsBagCheckFill } from "react-icons/bs";
 import { useStateContext } from "../context/StateContext";
@@ -22,7 +22,7 @@ const success = () => {
         <h2>Thank you for your order!</h2>
         <p className="email-msg">Check your inbox for your receipt</p>
         <p className="description">
-          If you have questions please email{" "}
+          If you have questions please email
           <a className="email" href="mailto:order@example.com">
             order@example.com
           </a>
